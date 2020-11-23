@@ -37,6 +37,7 @@
     <option value="Fechado">Fechado</option>
     </select>
     <input type="hidden" value="{{ Auth::user()->name }}" name="criadapor">
+    <input type="hidden" value="{{date('Y-m-d h:i:s')}}" name="updated_at">
   </div>
 </div><br>
 <div class="col-lg"><center><input type="submit" class="btn btn-danger btn-lg" value="CADASTRAR PROPOSTA"></input></center></div>
